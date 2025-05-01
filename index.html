@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Golden Pricing Cards</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #121212;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+      padding: 2rem;
+    }
+
+    h1 {
+      color: #FFD700;
+      margin-bottom: 2rem;
+    }
+
+    .pricing-container {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      background: linear-gradient(145deg, #2e2e2e, #1c1c1c);
+      border: 2px solid #FFD700;
+      color: #FFD700;
+      border-radius: 16px;
+      width: 300px;
+      padding: 2rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .price {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .features {
+      list-style: none;
+      margin-bottom: 2rem;
+    }
+
+    .features li {
+      margin-bottom: 0.5rem;
+      color: #fefefe;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      background: #FFD700;
+      color: black;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #ffcc00;
+    }
+
+    .highlight {
+      box-shadow: 0 0 25px rgba(255, 215, 0, 0.8);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Golden Pricing Plans</h1>
+
+  <div class="pricing-container">
+    <div class="card">
+      <h2>Basic</h2>
+      <p class="price">$19/mo</p>
+      <ul class="features">
+        <li>1 Project</li>
+        <li>Email Support</li>
+        <li>Community Access</li>
+      </ul>
+      <a href="#" class="btn">Choose Plan</a>
+    </div>
+
+    <div class="card highlight">
+      <h2>Pro</h2>
+      <p class="price">$49/mo</p>
+      <ul class="features">
+        <li>10 Projects</li>
+        <li>Priority Support</li>
+        <li>Advanced Analytics</li>
+      </ul>
+      <a href="#" class="btn">Choose Plan</a>
+    </div>
+
+    <div class="card">
+      <h2>Enterprise</h2>
+      <p class="price">$99/mo</p>
+      <ul class="features">
+        <li>Unlimited Projects</li>
+        <li>Dedicated Support</li>
+        <li>Custom Solutions</li>
+      </ul>
+      <a href="#" class="btn">Choose Plan</a>
+    </div>
+  </div>
+
+</body>
+</html>
