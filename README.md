@@ -1,6 +1,6 @@
 # 🔥 Golden Pricing Plans – Dark Mode Tailwind Component
 
-A premium dark-themed pricing section with glowing gold accents. Perfect for SaaS websites, landing pages, and product sites.
+#### A premium dark-themed pricing section with glowing gold accents. Perfect for SaaS websites, landing pages, and product sites.
 
 ## ✨ Features
 
@@ -14,7 +14,7 @@ A premium dark-themed pricing section with glowing gold accents. Perfect for Saa
 <img width="1222" alt="p card 2" src="https://github.com/user-attachments/assets/a20dd59d-2523-44f0-a981-92c7ebce7e55" />
 
 
-## 🔴 Live Demo -https://golden-pricing-card.vercel.app/
+#### 🔴 Live Demo - https://golden-pricing-card.vercel.app/
 
 ## 🛠️ Technologies
 
@@ -23,7 +23,12 @@ A premium dark-themed pricing section with glowing gold accents. Perfect for Saa
 
 ## 📂 File Structure
 
-golden-pricing-plans/ ├── index.html ├── styles.css (if any) ├── tailwind.config.js ├── README.md └── preview.png
+golden-pricing-plans/ 
+├── index.html 
+├── styles.css (if any)
+├── tailwind.config.js
+├── README.md 
+└── preview.png
 
 bash
 Copy
