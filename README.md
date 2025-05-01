@@ -11,13 +11,10 @@ A premium dark-themed pricing section with glowing gold accents. Perfect for Saa
 - 🔌 Easy to integrate into any HTML or Tailwind-based project
 
 ## 📸 Preview
+<img width="1222" alt="p card 2" src="https://github.com/user-attachments/assets/a20dd59d-2523-44f0-a981-92c7ebce7e55" />
 
-![Golden Pricing Plans Screenshot](./preview.png)
 
-## 🚀 Live Demo
-
-[🔗 View Live on Netlify](https://your-netlify-link.com)  
-*(Replace with your deployed link)*
+## 🔴 Live Demo -https://golden-pricing-card.vercel.app/
 
 ## 🛠️ Technologies
 
