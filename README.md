@@ -26,3 +26,23 @@ A premium dark-themed pricing section with glowing gold accents. Perfect for Saa
 
 ## 📂 File Structure
 
+golden-pricing-plans/ ├── index.html ├── styles.css (if any) ├── tailwind.config.js ├── README.md └── preview.png
+
+bash
+Copy
+Edit
+
+## 🧠 Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/golden-pricing-plans.git
+```
+Open index.html in your browser or integrate the component into your project.
+
+🤝 License
+Free to use for personal and commercial projects.
+Credit appreciated but not required. 🙌
+
+
